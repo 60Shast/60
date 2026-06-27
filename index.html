@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه ارتباطی شصت</title>
+    <style>
+        /* استایل‌های مدرن و شیشه‌ای (Glassmorphism) */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 30px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            margin: 20px 0;
+        }
+
+        .quote {
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 20px;
+            opacity: 0.95;
+            font-weight: 300;
+            line-height: 1.6;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            padding-bottom: 15px;
+        }
+
+        /* استایل جدید برای آرم شصت */
+        .logo-img {
+            width: 120px; /* اندازه آرم */
+            height: 120px;
+            border-radius: 20%; /* کمی گرد بودن لبه‌های آرم */
+            margin-bottom: 15px;
+            object-fit: cover;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h1 {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+
+        p.subtitle {
+            font-size: 15px;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .link-card {
+            text-decoration: none;
+            color: white;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 16px;
+            border-radius: 15px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: block;
+            font-size: 17px;
+        }
+
+        .link-card:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: scale(1.03);
+        }
+
+        .instagram { border-right: 6px solid #E1306C; }
+        .eita { border-right: 6px solid #00a8e1; }
+        .rubika { border-right: 6px solid #ff4d4d; }
+        .bale { border-right: 6px solid #28a745; }
+        .email { border-right: 6px solid #f8f9fa; }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- متن بالای صفحه -->
+        <div class="quote">زندگی سرتاسر حل مسئله است</div>
+
+        <!-- بخش آرم شصت -->
+        <img src="logo.png" alt="آرم شصت" class="logo-img">
+        
+        <h1>راه‌های ارتباطی</h1>
+        <p class="subtitle">خوش آمدید</p>
+
+        <div class="links">
+            <a href="https://www.instagram.com/60.shast?igsh=ZzkwenA3ODcyZ2Zr" target="_blank" class="link-card instagram">اینستاگرام</a>
+            <a href="https://eitaa.com/eitaa60shast" target="_blank" class="link-card eita">ایتا</a>
+            <a href="https://rubika.ir/page/SHAST_60" target="_blank" class="link-card rubika">روبیکا</a>
+            <a href="https://ble.ir/ble60shast" target="_blank" class="link-card bale">بله</a>
+            <a href="mailto:mrsalehiwaziri@gmail.com" class="link-card email">ارسال ایمیل</a>
+        </div>
+    </div>
+
+</body>
+</html>
